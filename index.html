@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id="container" >
@@ -18,9 +18,49 @@
         </div>
         <div id="right_container">
             <div id="description_area">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi expedita deserunt excepturi<br> laborum asperiores nisi obcaecati nobis odio quos <br><br> beatae eaque.</div>
-            <div id="form_area"></div>
-            <button>Press To See Anime Girl</button>
-            <div>Already have an account? <a href="" class="login_link">Log in</a></div>
+            <div class="whole_form_container">
+                <form action="" method="get" id="form">
+                    <legend>Let's do this!</legend>
+                    <div class="first_name_container form_container">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" name="first_name" id="first_name" required>
+                    </div>
+                    
+                    <div class="last_name_container form_container">
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" name="last_name" id="last_name" required>
+                    </div>
+                    
+    
+                    <div class="email_container form_container">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    
+                    
+                    <div class="phone_container form_container">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="number" name="phone" id="phone" required>
+                    </div>
+                    
+                    
+                    <div class="password_container form_container">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    
+                    
+                    <div class="confirm_container form_container">
+                        <label for="confirm">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm" id="confirm" required>
+                    </div>
+                    
+                    
+    
+                </form>
+            </div>
+            <button class="button-68" role="button">Create Account</button>
+            <div class="bottom">Already have an account? <a href="" class="login_link">Log in</a></div>
         </div>
     </div>
 </body>
